@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lumarque <lumarque@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/10 17:33:25 by lumarque          #+#    #+#             */
-/*   Updated: 2023/06/11 18:02:17 by lumarque         ###   ########.fr       */
+/*   Created: 2023/06/11 18:01:39 by lumarque          #+#    #+#             */
+/*   Updated: 2023/06/11 18:02:07 by lumarque         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-#define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+#define GET_NEXT_LINE_BONUS_H
 
 #include <stdio.h>
 #include <unistd.h>
@@ -23,6 +23,8 @@
 #ifndef BUFFER_SIZE
 #define BUFFER_SIZE 42
 #endif
+
+#define MAX_FILES 10000
 
 char	*get_next_line(int fd);
 
