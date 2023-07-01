@@ -6,7 +6,7 @@
 /*   By: lumarque <lumarque@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/11 17:58:12 by lumarque          #+#    #+#             */
-/*   Updated: 2023/06/11 17:59:33 by lumarque         ###   ########.fr       */
+/*   Updated: 2023/07/01 13:43:37 by lumarque         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ static char	*get_current_buffer(int fd, char *buffer)
 			return (NULL);
 		}
 		current[bytes] = '\0';
-		buffer = merge_previous_and_current(buffer, current);
+		buffer = to_join(buffer, current);
 	}
 	free(current);
 	if (strlen_at(buffer, '\0') > 0)

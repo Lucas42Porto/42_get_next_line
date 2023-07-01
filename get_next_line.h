@@ -6,7 +6,7 @@
 /*   By: lumarque <lumarque@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/10 17:33:25 by lumarque          #+#    #+#             */
-/*   Updated: 2023/06/11 18:02:17 by lumarque         ###   ########.fr       */
+/*   Updated: 2023/07/01 13:43:30 by lumarque         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,6 @@ void	*ft_memcpy(void *dest, const void *src, size_t n);
 size_t	strlen_at(const char *s, int c);
 char	*cpy_buffer(const char *s, size_t n);
 char	*find_chr(const char *s, int c);
-char	*merge_previous_and_current(char *s1, char const *s2);
+char	*to_join(char *s1, char const *s2);
 
 #endif

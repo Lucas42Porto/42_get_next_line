@@ -6,7 +6,7 @@
 /*   By: lumarque <lumarque@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/11 18:02:33 by lumarque          #+#    #+#             */
-/*   Updated: 2023/06/11 18:02:40 by lumarque         ###   ########.fr       */
+/*   Updated: 2023/07/01 13:43:24 by lumarque         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ char	*cpy_buffer(const char *buffer, size_t len)
 	return (cpy);
 }
 
-char	*merge_previous_and_current(char *previous, const char *current)
+char	*to_join(char *previous, const char *current)
 {
 	size_t	len_prev;
 	size_t	len_curr;
