@@ -6,11 +6,12 @@
 /*   By: lumarque <lumarque@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/10 17:32:21 by lumarque          #+#    #+#             */
-/*   Updated: 2023/07/01 13:43:09 by lumarque         ###   ########.fr       */
+/*   Updated: 2023/07/01 14:25:15 by lumarque         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
+#include <stdio.h>
 
 static char	*get_line(char **buffer)
 {
